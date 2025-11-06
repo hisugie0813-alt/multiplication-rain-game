@@ -28,10 +28,10 @@ export const DIFFICULTY_CONFIGS: Record<string, DifficultyConfig> = {
 
 export const INITIAL_LIVES = 3;
 export const POINTS_PER_CORRECT = 10;
-export const CANVAS_WIDTH = 800;
-export const CANVAS_HEIGHT = 600;
-export const INPUT_PANEL_HEIGHT = 180;
-export const RAINDROP_SIZE = 60;
+export const CANVAS_WIDTH = 1200;
+export const CANVAS_HEIGHT = 800;
+export const INPUT_PANEL_HEIGHT = 220;
+export const RAINDROP_SIZE = 80;
 
 // LocalStorage 키
 export const HIGH_SCORE_KEY = 'multiplicationRainHighScore';

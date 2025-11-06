@@ -68,7 +68,7 @@ export const GameScreen: React.FC<GameScreenProps> = ({
       // 문제 텍스트
       ctx.globalAlpha = 1;
       ctx.fillStyle = '#FFFFFF';
-      ctx.font = 'bold 24px Arial, sans-serif';
+      ctx.font = 'bold 32px Arial, sans-serif';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       ctx.fillText(`${drop.num1} × ${drop.num2}`, drop.x, drop.y);
