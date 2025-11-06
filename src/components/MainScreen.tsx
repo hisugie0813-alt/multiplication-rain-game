@@ -1,6 +1,5 @@
 import React from 'react';
 import { Difficulty } from '../types';
-import { DIFFICULTY_CONFIGS } from '../constants';
 
 interface MainScreenProps {
   highScore: number;

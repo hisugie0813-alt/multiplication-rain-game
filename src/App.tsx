@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { GameState, Difficulty, Raindrop } from './types';
+import { GameState, Difficulty } from './types';
 import { MainScreen } from './components/MainScreen';
 import { GameScreen } from './components/GameScreen';
 import { GameOverScreen } from './components/GameOverScreen';
@@ -181,7 +181,7 @@ function App() {
     setState((prev) => {
       if (!prev.currentInput) return prev;
 
-      const { found, remainingRaindrops, removedRaindrop } = checkAnswer(
+      const { found, remainingRaindrops } = checkAnswer(
         prev.raindrops,
         prev.currentInput
       );
